@@ -1,0 +1,5 @@
+{# From https://twig.symfony.com/doc/3.x/tags/macro.html #}
+{% macro localized_include(twig_file_prefix, locale, params) %}
+   {% set twig_file_full_path="jpm/"~twig_file_prefix~"_"~locale~".html.twig" %}
+   {% include twig_file_full_path with {'locale' : locale} only %}
+{% endmacro %}

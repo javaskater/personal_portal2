@@ -1,0 +1,182 @@
+
+        <!-- <div class="row">
+            <h3>A short resume:</h3>
+        </div>-->
+        <ul class="nav nav-tabs" role="tablist">
+        	<li class="nav-item">
+                <button class="nav-link active" id="presentation-tab" data-bs-toggle="tab" data-bs-target="#services-presentation" type="button" role="tab" aria-controls="presentation" aria-selected="true">Some Words about me:</button>
+             </li>
+            <li class="nav-item">
+                <button class="nav-link" id="services-personal-tab" data-bs-toggle="tab" data-bs-target="#services-personal" type="button" role="tab" aria-controls="services-personal" aria-selected="false">As a volunteer:</button>
+            </li>
+            <li class="nav-item">
+                <button class="nav-link" id="services-techs-tab" data-bs-toggle="tab" data-bs-target="#services-techs" type="button" role="tab" aria-controls="services-techs" aria-selected="false">The techs I work with:</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="services-professional-training-tab" data-bs-toggle="tab" data-bs-target="#professional-training-techs" type="button" role="tab" aria-controls="services-techs" aria-selected="false">Continuing education:</button>
+            </li>
+        </ul>
+        <div class="tab-content">
+        	<div class="tab-pane fade show active" id="services-presentation" role="tabpanel" aria-labelledby="presentation-tab">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <img src="{{ asset('images/JpmBerck.jpg') }}" class="img-fluid" title="Jean-Pierre hiking along the french north coast (Berck, october 2017)" data-toggle="tooltip" data-placement="top" />
+                        </div>
+                        <div class="col-sm-4">
+                            <h2 class="text-md-center">Senior Web Developer</h2>
+                            <h3 class="text-md-center">in Java, PHP, Python</h3>
+                            <h3 class="text-md-center">At the Ministry of Finances (France)</h3>
+                            <h4 class="text-md-center">Also training people for projects
+                                using <a href="https://www.drupal.org/" target="_blank">Drupal <i class="fa fa-drupal" aria-hidden="true"></i></a></h4>
+                        </div>
+                        <div class="col-sm-4">
+                            <h2 class="text-md-center"><a href="http://www.ec-lille.fr" target="_blank">Multilingual <i class="fa fa-language" aria-hidden="true"></i> engineer </a></h2>
+                            <ul>
+                                <li class="font-italic font-weight-bold">Bilingual in German</li>
+                                <li class="font-italic">Fluent in English</li>
+                                <li>Spanish / B2 level</li>
+                                <li>Italian / B2 level</li>
+                                <li class="font-italic">Studying Russian to reach the C1 level</li>
+                            </ul>
+                             <h5 class="text-md-center">
+								<a href="{{ asset('uploads/en/CVEuropassJPMena_en.pdf') }}"
+									target="_blank" title="Click on that link in order to downlload my resumee" data-toggle="tooltip"
+            data-placement="bottom"> <i class="fa fa-file-pdf-o"
+									aria-hidden="true"></i> More about me (Europass resumee)
+								</a>
+							</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade show" id="services-personal" role="tabpanel" aria-labelledby="services-personal-tab">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <h3>
+                                From 2010 to 2017 I was the webmaster of the <a href="http://rsmontreuil.fr"
+                                                     target="_blank">Roller Skating Montreuillois</a>
+                            </h3>
+                            <p>I developed</p>
+                            <ul>
+                                <li><a href="https://github.com/javaskater/import_joomla_rsm" target="blank">A WordPress module</a> for migrating the initial club's website (using Joomla 2.5)
+                                    to the its new WordPress 4.x version</li>
+                                <li><a href="https://github.com/javaskater/wp-rsm_galleries" target="blank">A WordPress module</a> for animating the
+                                    default WordPress galleries and posts' embedded images</li>
+                                <li><a href="https://github.com/javaskater/inlineskatingcomitee93" target="blank">A Bootstrap based WordPress theme</a> for the local skating comitee</li>
+                            </ul>
+                            <p>And I trained people to the use of <a href="https://wordpress.org/" target="blank">Wordpress</a></p>
+                        </div>
+                        <div class="col-sm-6">
+                            <h3>
+                                From 2009 to 2017 at <a href="http://rifrando.fr/"
+                                                     target="_blank">Randonneurs Ile de France (RIF)</a> software board
+                            </h3>
+                            <p>RIF is the Paris'region main hikers association made of more than 3000 hikers</p>
+                            <ul>
+                                <li>I developed differents Python scripts for:</li>
+                                <ul>
+                                    <li>transferring the proposed hikes from the main ACCESS
+                                        database to the 'hikers' private website</li>
+                                    <li>and the other way around from the 'hikers' private
+                                        website to the ACCESS database using REST webservices</li>
+                                    <li>backuping</li>
+                                    <li>generating the paper version of the hiking program
+                                        for the next two months</li>
+                                </ul>
+                                <li>I maintained and developped the previous members' CakePHP website</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade show" id="services-techs" role="tabpanel" aria-labelledby="services-techs-tab">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <h3>Content Management Systems</h3>
+                        <ul>
+                            <li><a href="https://www.drupal.org/" target="_blank"><i class="fa fa-drupal" aria-hidden="true"></i> Drupal</a> is the Content Management System with which:</li>
+                            <ul>
+                                <li>I train people on administering and developing Drupal8</li>
+                            </ul>
+                            <li>I share mys expertise through a knowledge base: <a href="http://wiki.jpmena.eu/" target="_blank"> WIKI <i class="fa fa-wikipedia-w" aria-hidden="true"></i></a></li>
+                            <li><a href="https://wordpress.org/" target="_blank"><i class="fa fa-wordpress" aria-hidden="true"></i>
+                                    </i> Wordpress</a> is the Content Managment System I used for the inline skating clubs' communication:</li>
+                            <ul>
+                                <li> <a href="http://rsmontreuil.fr/" target="_blank"> Roller Skating Montreuillois </a></li>
+                                <li> Locla inline skating comitee </li>
+                            </ul>
+                        </ul>
+                    </div>
+                    <div class="col-sm-4">
+                        <h3>Server Side Technologies</h3>
+                        <ul>
+                            <li>Java J2EE (Struts / Spring)</li>
+                            <li>Symfony / PHP</li>
+                        </ul>
+                        <h3>Client Side Technologies</h3>
+                        <ul>
+                            <li>JQuery</li>
+                            <li>Bootstrap</li>
+                            <li>React JS</li>
+                            <li>Vue JS</li>
+                        </ul>
+                        <h3>Others:</h3>
+                        <ul>
+                            <li>Development of Android Apps in Java or Kotlin</li>
+                            <li><i>Containerizing</i> my development environments using Docker</li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-4">
+                        <h3>Resources</h3>
+                        <h4>Personal resources</h4>
+                        <ul>
+                            <li><a href="https://github.com/javaskater?tab=repositories" target="_blank"> My GitHub <i
+                                        class="fa fa-github" aria-hidden="true"></i> Repositories</a></li>
+                            <li><a href="http://wiki.jpmena.eu/" target="_blank"> My personal wiki <i class="fa fa-wikipedia-w"
+                                                                                                                         aria-hidden="true"></i></a></li>
+                            <li><a href="http://blog.jpmena.eu/" target="_blank"> My Blog <i class="fa fa-wordpress" aria-hidden="true"></i></a></li>
+                        </ul>
+                        <h4>Books</h4>
+                        <ul>
+                            <li><a href="http://shop.oreilly.com/" target="_blank">OReilly eBooks</a></li>
+                            <li><a href="https://www.manning.com/dotd" target="_blank">Manning eBooks (Deal of the Day)</a></li>
+                            <li><a href="http://www.informit.com/" target="_blank">Informit eBooks (Pearson Education)</a></li>
+                            <li><a href="https://www.packtpub.com/" target="_blank">Packt eBooks</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade show" id="professional-training-techs" role="tabpanel" aria-labelledby="services-professional-training-tab">
+                <div class="row">
+                    <div class="col-sm-12 justify-content-center">
+                        <h4>The last teaching units followed at the <a href="https://www.cnam.eu/site-en/" target="_blank">CNAM</a></h4>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <h5>For the obtention of the <a href="https://formation.cnam.fr/rechercher-par-discipline/intelligence-artificielle-208617.kjsp" target="_blank">Certificate in Artificial Intelligence</a></h5>
+                        <p>Teaching units already followed :</p>
+                            <li>Statistics <a href="https://formation.cnam.fr/rechercher-par-discipline/techniques-de-la-statistique-411338.kjsp" target="_blank">STA 001</a> (Score 18/20)</li>
+                            <li>Artificial Intelligence <a href="https://formation.cnam.fr/rechercher-par-discipline/intelligence-artificielle-208617.kjsp" target="_blank">NFP 106</a> (Score 17.5/20)</li>
+                            <li>Statistical Apprenticeship <a href="https://www.cnam-paris.fr/apprentissage-statistique-modelisation-descriptive-et-introduction-aux-reseaux-de-neurones-1265408.kjsp" target="_blank">RCP208</a> (Semester in progress)</li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6">
+                        <h5>Android Apps and WEB pages development:</h5>
+                        <p>Units in Android Apps developement:</p>
+                        <ul>
+                            <li>Course of programming for Tablets and Smartphones <a href="https://formation.cnam.fr/rechercher-par-discipline/mise-en-oeuvre-de-la-programmation-de-smart-phones-et-tablettes-tactiles-508786.kjsp" target="_blank">NFA025</a> (Score 19/20)</li>
+                            <li>Mobile application development: practice throuh a project <a href="https://formation.cnam.fr/rechercher-par-discipline/projet-application-mobile-mise-en-pratique-208579.kjsp" target="_blank">NFA024</a> (Score 18/20)</li>
+                        </ul>
+                        <p>Units in web development:</p>
+                        <ul>
+                            <li>Web development on the client side <a href="https://formation.cnam.fr/rechercher-par-discipline/developpement-web-1-architecture-du-web-et-developpement-cote-client-208571.kjsp" target="_blank">NFA016</a> (Score 20/20)</li>
+                            <li>Web development on the server side <a href="https://formation.cnam.fr/rechercher-par-discipline/developpement-web-2-sites-dynamiques-et-developpement-cote-serveur-208572.kjsp" target="_blank">NFA017</a> (Score 18/20)</li>
+                            <li>Web development: practice through a project <a href="https://formation.cnam.fr/rechercher-par-discipline/developpement-web-3-mise-en-pratique-208576.kjsp" target="_blank">NFA021</a> (Score 17/20)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>

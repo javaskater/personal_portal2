@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file datatype="plaintext" source-language="en" target-language="fr" original="file.ext">
+    <body>
+      <!--translations in french for the Carousel-->
+      <trans-unit id="1">
+          <source>carousel.berlin_marathon.title</source>
+          <target>Marathon de Berlin</target>
+      </trans-unit>
+      <trans-unit id="2">
+          <source>carousel.berlin_marathon.desc</source>
+          <target>Arrivée de l'édition 2014 du Marathon Roller de Berlin</target>
+      </trans-unit>
+      <trans-unit id="3">
+          <source>carousel.mesnieres.title</source>
+          <target>Château de Mesnières en Bray</target>
+      </trans-unit>
+      <trans-unit id="4">
+          <source>carousel.mesnieres.desc</source>
+          <target>Sur la voie verte Paris-Londres (stages de roller)</target>
+      </trans-unit>
+      <trans-unit id="5">
+          <source>carousel.fedora_workstation.title</source>
+          <target>Mon poste de travail sous Fedora</target>
+      </trans-unit>
+      <trans-unit id="6">
+          <source>carousel.fedora_workstation.desc</source>
+          <target>Développement logiciel sous Fedora 27</target>
+      </trans-unit>
+       <trans-unit id="7">
+          <source>carousel.fontainebleau.title</source>
+          <target>La Seine près de Fontainebleau</target>
+      </trans-unit>
+      <trans-unit id="8">
+          <source>carousel.fontainebleau.desc</source>
+          <target>Randonnée le long de la Seine à Bois Le Roi</target>
+      </trans-unit>
+      <trans-unit id="9">
+          <source>carousel.prev.info</source>
+          <target>Précédent</target>
+      </trans-unit>
+      <trans-unit id="10">
+          <source>carousel.next.info</source>
+          <target>Suivant</target>
+      </trans-unit>
+      <!--translations in french for the Main Toolbar-->
+      <trans-unit id="11">
+            <source>menu.main.wiki</source>
+            <target>Mon Wiki</target>
+        </trans-unit>
+        <trans-unit id="12">
+            <source>menu.main.blog</source>
+            <target>Mon Blog</target>
+        </trans-unit>
+        <trans-unit id="13">
+            <source>menu.main.github</source>
+            <target>Mon compte GitHub</target>
+        </trans-unit>
+        <trans-unit id="14">
+            <source>menu.main.contact</source>
+            <target>Formulaire de contact</target>
+        </trans-unit>
+        <!--Coontact Form messages -->
+        <trans-unit id="15">
+            <source>contact_form.subject</source>
+            <target>Le sujet * : </target>
+        </trans-unit>
+        <trans-unit id="16">
+            <source>contact_form.subject_placeholder</source>
+            <target>Le sujet de votre demande de contact ...</target>
+        </trans-unit>
+        <trans-unit id="18">
+            <source>contact_form.name</source>
+            <target>Nom * : </target>
+        </trans-unit>
+        <trans-unit id="19">
+            <source>contact_form.name_placeholder</source>
+            <target>Votre Nom</target>
+        </trans-unit>
+        <trans-unit id="21">
+            <source>contact_form.mail</source>
+            <target>Email * : </target>
+        </trans-unit>
+        <trans-unit id="22">
+            <source>contact_form.mail_placeholder</source>
+            <target>Votre adresse e-mail...</target>
+        </trans-unit>
+        <trans-unit id="24">
+            <source>contact_form.message</source>
+            <target>Message * : </target>
+        </trans-unit>
+        <trans-unit id="25">
+            <source>contact_form.message_placeholder</source>
+            <target>Entrez votre message ici..</target>
+        </trans-unit>
+        <trans-unit id="27">
+            <source>contact_form.send</source>
+            <target>Envoi</target>
+        </trans-unit>
+        <!--Messages for the Contact's form alert boxes-->
+        <trans-unit id="28">
+            <source>contact_form.alert.success</source>
+            <target>Bravo ! </target>
+        </trans-unit>
+        <trans-unit id="29">
+            <source>contact_form.alert.success.desc</source>
+            <target>Votre demande de contact a été envoyée avec succès. </target>
+        </trans-unit>
+        <trans-unit id="30">
+            <source>contact_form.alert.error</source>
+            <target>Ouups !!! </target>
+        </trans-unit>
+        <trans-unit id="31">
+            <source>contact_form.alert.error.desc</source>
+            <target>Problème technique rencontré lors de l'envoi de votre demande. </target>
+        </trans-unit>
+        <trans-unit id="32">
+             <source>menu.main.gitlab</source>
+            <target>Mon compte Gitlab</target>
+        </trans-unit>
+    </body>
+  </file>
+</xliff>

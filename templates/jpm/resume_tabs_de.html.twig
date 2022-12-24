@@ -1,0 +1,173 @@
+        <!-- <div class="row">
+            <h3>A short resume:</h3>
+        </div>-->
+        <ul class="nav nav-tabs" role="tablist">
+        	<li class="nav-item" role="presentation">
+                <button class="nav-link active" id="presentation-tab" data-bs-toggle="tab" data-bs-target="#services-presentation" type="button" role="tab" aria-controls="presentation" aria-selected="true">Ich Heute:</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="services-personal-tab" data-bs-toggle="tab" data-bs-target="#services-personal" type="button" role="tab" aria-controls="services-personal" aria-selected="false">Freiwillige Aktivitäten:</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="services-techs-tab" data-bs-toggle="tab" data-bs-target="#services-techs" type="button" role="tab" aria-controls="services-techs" aria-selected="false">Technologien:</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="services-professional-training-tab" data-bs-toggle="tab" data-bs-target="#professional-training-techs" type="button" role="tab" aria-controls="services-techs" aria-selected="false">Weiterbildung:</button>
+            </li>
+        </ul>
+        <div class="tab-content">
+            <div class="tab-pane fade show active" id="services-presentation" role="tabpanel" aria-labelledby="presentation-tab">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <img src="{{ asset('images/jpreduit_de.jpg') }}" class="img-fluid" title="Jean-Pierre bei den Ankunft am Brandenburger Tor (Berlin Marathon 2014)" data-toggle="tooltip" data-placement="top" />
+                        </div>
+                        <div class="col-sm-4">
+                            <h2 class="text-md-center">Senior Software Entwickler</h2>
+                            <h3 class="text-md-center">in Java, PHP, Python</h3>
+                            <h3 class="text-md-center">Am Französischen Finanzministerium</h3>
+                            <h4 class="text-md-center">Ich trainiere auch Angestellte bei der Webseite Entwicklung mit
+                                <a href="https://www.drupal.org/" target="_blank">Drupal <i class="fa fa-drupal" aria-hidden="true"></i></a></h4>
+                        </div>
+                        <div class="col-sm-4">
+                            <h2 class="text-md-center"><a href="http://www.ec-lille.fr" target="_blank">Mehrsprachiger <i class="fa fa-language" aria-hidden="true"></i> Ingenieur </a></h2>
+                            <ul>
+                                <li class="font-italic font-weight-bold">Deutsch: zweisprachig</li>
+                                <li class="font-italic">Englisch: fliessend / Arbeitsprache</li>
+                                <li>Spanisch / B2 Niveau</li>
+                                <li>Italienisch / B2 Niveau</li>
+                                <li class="font-italic">Russisch: C1 Niveau als Ziel</li>
+                            </ul>
+                            <h5 class="text-md-center">
+								<a href="{{ asset('uploads/de/CVEuropassJPMena_de.pdf') }}"
+									target="_blank" title="Link anklicken um meinen Lebenslauf herunterzuladen" data-toggle="tooltip"
+            data-placement="bottom"> <i class="fa fa-file-pdf-o"
+									aria-hidden="true"></i> Mehr über mich (Lebenslauf vom Typ Europass)
+								</a>
+							</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade show" id="services-personal" role="tabpanel" aria-labelledby="services-personal-tab">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <h3>
+                                Ich war vom 2010 zu 2017 Webmaster vom <a href="http://rsmontreuil.fr"
+                                                     target="_blank">Roller Skating Montreuillois</a>
+                            </h3>
+                            <p>I habe zwei Wordpress Module entwickelt</p>
+                            <ul>
+                                <li><a href="https://github.com/javaskater/import_joomla_rsm" target="blank">Ein Modul</a> um die Daten vom original Joomla Website zu exportieren, und die im neuen Wordpress 4.x Site zu importieren</li>
+                                <li><a href="https://github.com/javaskater/wp-rsm_galleries" target="blank">Ein Modul</a> um Wordpress Bilder und Gallerien anders zu präsentieren</li>
+                                <li><a href="https://github.com/javaskater/inlineskatingcomitee93" target="blank">Ein Bootstrap basiertes WordPress Theme</a> fur das Inline Skating Kreis Komittee</li>
+                            </ul>
+                            <p>Ich war auch als Ausbilder täẗig fur den Gebrauch von <a href="https://de.wordpress.org/" target="blank">Wordpress</a></p>
+                        </div>
+                        <div class="col-sm-6">
+                            <h3>
+                                Von 2009 bis 2017 war ich bei <a href="http://http://rifrando.fr/"
+                                                     target="_blank">Randonneurs Ile de France (RIF)</a> Software Kommission tâtig
+                            </h3>
+                            <p>Der RIF ist der Hauptwanderverein im Pariser Land mit mehr als 3000 Mitglieder</p>
+                            <ul>
+                                <li>Dabei habe ich verschiedene ComputerProgramme in Python entwickelt:</li>
+                                <ul>
+                                    <li>Zum Datentransfer von der Verein's ACCESS Datenbank zur Mitglieder Webseite</li>
+                                    <li>And in die andere Richtung von  Mitglieder Webseite zur Verein Datenbank durch REST Webservices</li>
+                                    <li>Zum automatisierten Backup vom der Verein ACCESS Datenbank (nach Verschlüsselung)</li>
+                                    <li>zur Erzeugung der Papierversion des Wanderprogrammes für die nächsten zwei Monate</li>
+                                </ul>
+                                <li>Ich habe die fruhere Version der Wanderer's Webseite in CakePHP weiterentwickelt</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade show" id="services-techs" role="tabpanel" aria-labelledby="services-techs-tab">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <h3>Content Management Systems</h3>
+                        <ul>
+                            <li><a href="https://www.drupal.org/" target="_blank"><i class="fa fa-drupal" aria-hidden="true"></i> Drupal</a> ist das Content Management System (kurz CMS) über dem ich beim Finanzministerium ein der Experte bin, damit:</li>
+                            <ul>
+                                <li>bilde ich Angestellte sei es bei der Verwaltung mit Drupal</li>
+                            </ul>
+                            <li>Meine Erfahrungen teile ich durch  <a href="http://wiki.jpmena.eu/" target="_blank"> mein Wiki <i class="fa fa-wikipedia-w" aria-hidden="true"></i></a></li>
+                            <li><a href="https://de.wordpress.org/" target="_blank"><i class="fa fa-wordpress" aria-hidden="true"></i>
+                                    </i> Wordpress</a> ist das CMS das ich für die Inline Skating Kommunikation eingesetzt habe</li>
+                            <ul>
+                                <li> <a href="http://rsmontreuil.fr/" target="_blank"> Roller Skating Montreuillois </a></li>
+                                <li>Inlineskating Komitee von Seine Saint Denis</li>
+                            </ul>
+                        </ul>
+                    </div>
+                    <div class="col-sm-4">
+                        <h3>Server-Side Technologien:</h3>
+                        <ul>
+                            <li>Java J2EE (Struts / Spring)</li>
+                            <li>Symfony  / PHP </li>
+                        </ul>
+                        <h3>Client-Side Technologien:</h3>
+                        <ul>
+                            <li>JQuery</li>
+                            <li>Bootstrap</li>
+                            <li>React JS</li>
+                            <li>Vue JS</li>
+                        </ul>
+                        <h3>Sonstiges:</h3>
+                        <ul>
+                            <li>Android Apps Entwicklung in Java oder Kotlin</li>
+                            <li><i>Virtualisierung</i> von meinen Entwicklungen auf meinem privaten Computer mit Docker</li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-4">
+                        <h3>Ressourcen:</h3>
+                        <h4>Persönliches:</h4>
+                        <ul>
+                            <li><a href="https://github.com/javaskater?tab=repositories" target="_blank"> Mein GitHub <i
+                                        class="fa fa-github" aria-hidden="true"></i> Konto</a></li>
+                            <li><a href="http://wiki.jpmena.eu/" target="_blank"> Mein Wiki <i class="fa fa-wikipedia-w"
+                                                                                                                         aria-hidden="true"></i></a></li>
+                            <li><a href="http://blog.jpmena.eu/" target="_blank"> Mein Blog <i class="fa fa-wordpress" aria-hidden="true"></i></a></li>
+                        </ul>
+                        <h4>Meine Bücher/Videos:</h4>
+                        <ul>
+                            <li><a href="http://shop.oreilly.com/" target="_blank">OReilly E-Bucher</a></li>
+                            <li><a href="https://www.manning.com/dotd" target="_blank">Manning E-Bucher (Deal of the Day)</a></li>
+                            <li><a href="http://www.informit.com/" target="_blank">Informit E-Bucher (Pearson Education)</a></li>
+                            <li><a href="https://www.packtpub.com/" target="_blank">Packt E-Bucher</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade show" id="professional-training-techs" role="tabpanel" aria-labelledby="services-professional-training-tab">
+                <div class="row">
+                    <h4>Letzte abgeschlossene Semesters am <a href="https://www.cnam.eu/site-en/" target="_blank">CNAM in Paris</a></h4>
+                    <div class="col-sm-6">
+                        <h5>Im Rahmen der Vorbereitung des <a href="https://formation.cnam.fr/rechercher-par-discipline/intelligence-artificielle-208617.kjsp" target="_blank">Zertifikats in Künstlicher Intelligenz</a></h5>
+                        <p>Semesters bis heute abgeschlossen :</p>
+                        <ul>
+                            <li>Statistiken <a href="https://formation.cnam.fr/rechercher-par-discipline/techniques-de-la-statistique-411338.kjsp" target="_blank">STA 001</a> (Note 18/20)</li>
+                            <li>Künstliche Intelligenz <a href="https://formation.cnam.fr/rechercher-par-discipline/intelligence-artificielle-208617.kjsp" target="_blank">NFP 106</a> (Note 17.5/20)</li>
+                            <li>Statistisches Lernen <a href="https://www.cnam-paris.fr/apprentissage-statistique-modelisation-descriptive-et-introduction-aux-reseaux-de-neurones-1265408.kjsp" target="_blank">RCP208</a> (Laufend)</li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6">
+                        <h5>Entwicklung von Android Apps und von dynamischen Webseiten:</h5>
+                        <p>Abgeschlossene Semesters in Android Entwicklung:</p>
+                        <ul>
+                            <li>Programmieren von Smartphones un Tablets unter Android <a href="https://formation.cnam.fr/rechercher-par-discipline/mise-en-oeuvre-de-la-programmation-de-smart-phones-et-tablettes-tactiles-508786.kjsp" target="_blank">NFA025</a> (Note 19/20)</li>
+                            <li>Praxis: Entwicklung eines Android Apps (im Form eines Projektes) <a href="https://formation.cnam.fr/rechercher-par-discipline/projet-application-mobile-mise-en-pratique-208579.kjsp" target="_blank">NFA024</a> (Note 18/20)</li>
+                        </ul>
+                        <p>Abgeschlossene Semesters in Web Entwicklung:</p>
+                        <ul>
+                            <li>Web Entwicklung Kundenseite <a href="https://formation.cnam.fr/rechercher-par-discipline/developpement-web-1-architecture-du-web-et-developpement-cote-client-208571.kjsp" target="_blank">NFA016</a> (Note 20/20)</li>
+                            <li>Web Entwicklung Serverseite <a href="https://formation.cnam.fr/rechercher-par-discipline/developpement-web-2-sites-dynamiques-et-developpement-cote-serveur-208572.kjsp" target="_blank">NFA017</a> (Note 18/20)</li>
+                            <li>Praxis: Web Entwicklung (im Form eines Projektes) <a href="https://formation.cnam.fr/rechercher-par-discipline/developpement-web-3-mise-en-pratique-208576.kjsp" target="_blank">NFA021</a> (Note 17/20)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>

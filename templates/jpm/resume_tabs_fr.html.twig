@@ -1,0 +1,177 @@
+       <!-- <div class="row">
+            <h3>A short resume:</h3>
+        </div>-->
+        <ul class="nav nav-tabs" role="tablist">
+        	<li class="nav-item">
+                <button class="nav-link active" id="presentation-tab" data-bs-toggle="tab" data-bs-target="#services-presentation" type="button" role="tab" aria-controls="presentation" aria-selected="true">En quelques mots:</button>
+             </li>
+            <li class="nav-item">
+                <button class="nav-link" id="services-personal-tab" data-bs-toggle="tab" data-bs-target="#services-personal" type="button" role="tab" aria-controls="services-personal" aria-selected="false">Bénévolat:</button>
+            </li>
+            <li class="nav-item">
+                <button class="nav-link" id="services-techs-tab" data-bs-toggle="tab" data-bs-target="#services-techs" type="button" role="tab" aria-controls="services-techs" aria-selected="false">Techs:</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="services-professional-training-tab" data-bs-toggle="tab" data-bs-target="#professional-training-techs" type="button" role="tab" aria-controls="services-techs" aria-selected="false">Formation continue:</button>
+            </li>
+        </ul>
+        <div class="tab-content">
+            <div class="tab-pane fade show active" id="services-presentation" role="tabpanel" aria-labelledby="presentation-tab">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <img src="{{ asset('images/jpreduit.png') }}" class="img-fluid" title="Jean-Pierre aux 6 Heures Roller d'Angers (Sept. 2016)" data-toggle="tooltip" data-placement="top" />
+                        </div>
+                        <div class="col-sm-4">
+                            <h2 class="text-md-center">Développeur Web expérimenté</h2>
+                            <h3 class="text-md-center">en Java, PHP, Python</h3>
+                            <h3 class="text-md-center">au Ministère des Finances (France)</h3>
+                            <h4 class="text-md-center">Egalement formateur à la gestion et au développement de sites
+                                avec <a href="https://www.drupal.org/" target="_blank">Drupal <i class="fa fa-drupal" aria-hidden="true"></i></a></h4>
+                        </div>
+                        <div class="col-sm-4">
+                            <h2 class="text-md-center"><a href="http://www.ec-lille.fr" target="_blank">Ingénieur <i class="fa fa-language" aria-hidden="true"></i> multilingue</a></h2>
+                            <ul>
+                                <li class="font-italic font-weight-bold">Bilingue en Allemand</li>
+                                <li class="font-italic">Anglais, langue de travail</li>
+                                <li>Espagnol / niveau B2</li>
+                                <li>Italien / niveau B2</li>
+                                <li class="font-italic">Etude du Russe en vue du niveau C1</li>
+                            </ul>
+                            <h5 class="text-md-center">
+								<a href="{{ asset('uploads/fr/CVEuropassJPMena_fr.pdf') }}"
+									target="_blank" title="Cliquer sur ce lien pour télécharger mon CV" data-toggle="tooltip"
+            data-placement="bottom"> <i class="fa fa-file-pdf-o"
+									aria-hidden="true"></i> Pour en savoir plus (CV au format Europass)
+								</a>
+							</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade show" id="services-personal" role="tabpanel" aria-labelledby="services-personal-tab">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <h3>
+                                De 2010 à 2017 Webmestre du club <a href="http://rsmontreuil.fr"
+                                                     target="_blank">Roller Skating Montreuillois</a>
+                            </h3>
+                            <p>J'ai en particuler développé:</p>
+                            <ul>
+                                <li>un <a href="https://github.com/javaskater/import_joomla_rsm" target="blank">module Wordpress</a> destiné à récupérer toutes les données du site initial (Joomla 2.5)</li>
+                                <li>un <a href="https://github.com/javaskater/wp-rsm_galleries" target="blank">module Wordpress</a> pour présenter de façon dynamique photos d'articles et galleries</li>
+                                <li>un <a href="https://github.com/javaskater/inlineskatingcomitee93" target="blank">theme WordPress basé sur Bootstrap</a> pour le comité de roller du 93</li>
+                            </ul>
+                            <p>Et j'ai formé des membres à l'usage de <a href="https://fr.wordpress.org/" target="blank">Wordpress</a></p>
+                        </div>
+                        <div class="col-sm-6">
+                            <h3>
+                                De 2009 à 2017, j'ai été actif à la commission informatique des <a href="http://rifrando.fr/"
+                                                     target="_blank">Randonneurs Ile de France (RIF)</a>
+                            </h3>
+                            <p>Le RIF est le principal club de randonnée en Ile de France ( > 3000 randonneurs)</p>
+                                <ul>
+                                <li>J'ai développé différents scripts en Python destinés à:</li>
+                                <ul>
+                                    <li>Transférer les randonnées en cours d'une base ACCESS vers le site adhérents</li>
+                                    <li>Et dans l'autre sens récupérer via des services REST les randonnées proposées en lignes par les animateurs pour prise en compte dans la gestion ACCESS de l'association</li>
+                                    <li>Réaliser des sauvegardes régulières et cryptées la base de travail de l'association</li>
+                                    <li>Générer automatiquement la version papier du programme de randonnées des 2 prochain mois</li>
+                                </ul>
+                                <li>J'ai maintenu et developpé la première version du site des adhérents (en Cake PHP)</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade show" id="services-techs" role="tabpanel" aria-labelledby="services-techs-tab">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <h3>Gestionaires de contenu (CMS)</h3>
+                        <ul>
+                            <li><a href="https://www.drupal.org/" target="_blank"><i class="fa fa-drupal" aria-hidden="true"></i> Drupal</a> est le CMS sur lequel :</li>
+                            <ul>
+                                <li>je forme des administrateurs à l'<a href="https://www.economie.gouv.fr/igpde" target="_blank">IGPDE</a></li>
+                            </ul>
+                            <li>Je partage cette expertise sur mon <a href="http://wiki.jpmena.eu/" target="_blank">Wiki <i class="fa fa-wikipedia-w" aria-hidden="true"></i></a></li>
+                            <li><a href="https://fr.wordpress.org/" target="_blank"><i class="fa fa-wordpress" aria-hidden="true"></i>
+                                    </i> Wordpress</a> est le CMS que j'ai utilisé pour mon activité bénévole de webmestre:</li>
+                            <ul>
+                                <li> au <a href="http://rsmontreuil.fr/" target="_blank"> Roller Skating Montreuillois </a></li>
+                                <li> au Comité de Roller du 93 </li>
+                            </ul>
+                        </ul>
+                    </div>
+                    <div class="col-sm-4">
+                        <h3>Technologies côté serveur:</h3>
+                        <ul>
+                            <li>Java J2EE (Struts / Spring)</li>
+                            <li>Symfony / PHP </li>
+                        </ul>
+                        <h3>Technologies côté client</h3>
+                        <ul>
+                            <li>JQuery</li>
+                            <li>Bootstrap</li>
+                            <li>React JS</li>
+                            <li>Vue JS</li>
+                        </ul>
+                        <h3>Autre:</h3>
+                        <ul>
+                            <li>Développement d'applications mobiles Android  en Java ou Kotlin</li>
+                            <li><i>Virtualisation</i> de mes serveurs de développement sur mon poste de travail en utilisant Docker</li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-4">
+                        <h3>Les ressources utiles:</h3>
+                        <h4>Ressources personnelles:</h4>
+                        <ul>
+                            <li><a href="https://github.com/javaskater?tab=repositories" target="_blank">Mon compte GitHub <i
+                                        class="fa fa-github" aria-hidden="true"></i></a></li>
+                            <li><a href="http://wiki.jpmena.eu/" target="_blank">Mon Wiki <i class="fa fa-wikipedia-w"
+                                                                                                                         aria-hidden="true"></i></a></li>
+                            <li><a href="http://blog.jpmena.eu/" target="_blank"> Mon Blog <i class="fa fa-wordpress" aria-hidden="true"></i></a></li>
+                        </ul>
+                        <h4>Mes livres/Vidéos:</h4>
+                        <ul>
+                            <li><a href="http://shop.oreilly.com/" target="_blank">OReilly eBooks</a></li>
+                            <li><a href="https://www.manning.com/dotd" target="_blank">Manning eBooks (Deal of the Day)</a></li>
+                            <li><a href="http://www.informit.com/" target="_blank">Informit eBooks (Pearson Education)</a></li>
+                            <li><a href="https://www.packtpub.com/" target="_blank">Packt eBooks</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade show" id="professional-training-techs" role="tabpanel" aria-labelledby="services-professional-training-tab">
+                <div class="row">
+                    <div class="col-sm-12 justify-content-center">
+                        <h4>Les dernières UE suivies au <a href="https://www.cnam-paris.fr/" target="_blank">CNAM Paris</a></h4>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <h5>Préparation du <a href="https://formation.cnam.fr/rechercher-par-discipline/intelligence-artificielle-208617.kjsp" target="_blank">Certificat CNAM en Intelligence Artificielle</a></h5>
+                        <p>UEs suivies à ce jour :</p>
+                        <ul>
+                            <li>Statistiques <a href="https://formation.cnam.fr/rechercher-par-discipline/techniques-de-la-statistique-411338.kjsp" target="_blank">STA 001</a> (Note 18/20)</li>
+                            <li>Intelligence Artificielle <a href="https://formation.cnam.fr/rechercher-par-discipline/intelligence-artificielle-208617.kjsp" target="_blank">NFP 106</a> (Note 17.5/20)</li>
+                            <li>Apprentissage Statistique <a href="https://www.cnam-paris.fr/apprentissage-statistique-modelisation-descriptive-et-introduction-aux-reseaux-de-neurones-1265408.kjsp" target="_blank">RCP208</a> (En cours)</li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6">
+                        <h5>Développement d'applications Android et de pages WEB dynamiques:</h5>
+                        <p>UEs en développement Android:</p>
+                        <ul>
+                            <li>Programmation Smartphones et Tablettes sous Android <a href="https://formation.cnam.fr/rechercher-par-discipline/mise-en-oeuvre-de-la-programmation-de-smart-phones-et-tablettes-tactiles-508786.kjsp" target="_blank">NFA025</a> (Note 19/20)</li>
+                            <li>Projet application mobile : mise en pratique <a href="https://formation.cnam.fr/rechercher-par-discipline/projet-application-mobile-mise-en-pratique-208579.kjsp" target="_blank">NFA024</a> (Note 18/20)</li>
+                        </ul>
+                        <p>UEs en développement WEB:</p>
+                        <ul>
+                            <li>Développement Web Côté client <a href="https://formation.cnam.fr/rechercher-par-discipline/developpement-web-1-architecture-du-web-et-developpement-cote-client-208571.kjsp" target="_blank">NFA016</a> (Note 20/20)</li>
+                            <li>Développement Web côté serveur <a href="https://formation.cnam.fr/rechercher-par-discipline/developpement-web-2-sites-dynamiques-et-developpement-cote-serveur-208572.kjsp" target="_blank">NFA017</a> (Note 18/20)</li>
+                            <li>Projet Développement WEB : mise en pratique <a href="https://formation.cnam.fr/rechercher-par-discipline/developpement-web-3-mise-en-pratique-208576.kjsp" target="_blank">NFA021</a> (Note 17/20)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
